@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib 
 
-dados = pd.read_csv("C:\\Users\\Pedro-\\Documents\\DTAT - FIAP\\Fase 4\\Tech\\Obesity.csv")
+dados = pd.read_csv("Obesity.csv")
 pipe = joblib.load("obesity_model.pkl")
 
 st.set_page_config(
